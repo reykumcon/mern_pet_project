@@ -41,7 +41,7 @@ const PetForm = (props) => {
 
     return (
         <Form className='border p-3' onSubmit={onSubmitHandler}>
-            {errors.map((err, index) => <p className='text-danger' key={index}>{err}</p>)}
+            {errors.map((err, index) => <p className='text-danger text-center' key={index}>{err}</p>)}
             <div className='mb-3 row d-flex justify-content-around'>
                 <div className='col-5'>
                     <FormGroup>
